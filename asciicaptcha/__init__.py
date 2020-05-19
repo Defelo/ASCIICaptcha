@@ -3,7 +3,7 @@ import os
 
 from pyfiglet import Figlet
 
-FONTS = open(os.path.join(os.path.dirname(__file__), "fonts.txt")).read().splitlines()
+from asciicaptcha.fonts import FONTS
 
 
 def generate_term(cnt):
