@@ -1,8 +1,9 @@
 import random
+import os
 
 from pyfiglet import Figlet
 
-FONTS = open("fonts.txt").read().splitlines()
+FONTS = open(os.path.join(os.path.dirname(__file__), "fonts.txt")).read().splitlines()
 
 
 def generate_term(cnt):
