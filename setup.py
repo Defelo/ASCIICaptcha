@@ -3,7 +3,7 @@ from os import environ
 
 setup(
     name="ASCIICaptcha",
-    version="1.0.1",
+    version="1.0.2",
     url="https://github.com/Defelo/ASCIICaptcha",
     author="Defelo",
     author_email="elodef42@gmail.com",
